@@ -214,7 +214,7 @@
             const adminUsername = document.getElementById('admin-username').value;
             const adminPassword = document.getElementById('admin-password').value;
 
-            if (adminUsername === 'DarkFirewall_007' && adminPassword === 'youcannothackme') {
+            if (adminUsername === 'DarkFirewall_007' && adminPassword === '********') {
                 openAdminPanel();
             } else if (adminUsername === 'hey' && adminPassword === 'suiii') {
                 startSelfDestruct();
